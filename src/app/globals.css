@@ -18,6 +18,16 @@
   @apply font-medium text-primary border-b-4 border-primary
 }
 
+.after-line {
+  @apply text-[40px] font-semibold pb-2 after:absolute after:h-[5px] after:bottom-0 after:left-1/2 after:right-1/2 after:transform after:-translate-x-1/2  after:bg-primary 
+}
+.text-effect{
+  background: linear-gradient(109.6deg, rgb(170, 255, 169) 11.2%, rgb(17, 255, 189) 91.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

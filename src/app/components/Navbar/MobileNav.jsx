@@ -37,7 +37,7 @@ const MobileNav = () => {
           className="fixed top-24 right-0 w-full h-0 overflow-hidden bg-primary/5 backdrop-blur-3xl z-10"
           ref={navScope}
         >
-          <nav className="flex flex-col">
+          <nav className="flex flex-col ">
             {navLinks.map(({ id, name }) => (
               <ScrollLink
                 key={id}

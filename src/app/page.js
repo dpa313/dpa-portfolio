@@ -6,6 +6,7 @@ import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
+import Footer from "./components/Footer";
 
 export default function Home() {
   useEffect(()=>{
@@ -24,6 +25,7 @@ export default function Home() {
       <Projects/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
