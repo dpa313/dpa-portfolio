@@ -1,11 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* -----------------Font---------------- */
+  --font-urbanist: var(--font-urbanist);
+  /* -----------------Color---------------- */
+  --color-primary: #00ff99
+  /* -----------------Screen---------------- */
+  /* -----------------Animation---------------- */
+  /* -----------------Background---------------- */
 }
 
-:root {
+.btn {
+  @apply flex items-center justify-center rounded-md font-medium text-sm px-3 py-2 bg-primary text-[#343535] hover:text-white transition-all duration-300
+}
+
+.active-menu {
+  @apply font-medium text-primary border-b-4 border-primary
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -21,4 +34,4 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
