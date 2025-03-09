@@ -59,7 +59,7 @@ const MobileNav = () => {
         </div>
         {/* ICON */}
         <div className="flex justify-end items-center h-20 ">
-          <div className="flex items-center justify-center size-9  border border-primary rounded-full text-primary z-50 ">
+          <div className="flex items-center justify-center size-9  border border-primary rounded-full text-primary z-50  text-effect">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

@@ -7,9 +7,20 @@
   --color-primary: #00ff99
   /* -----------------Screen---------------- */
   /* -----------------Animation---------------- */
+  /* --animate-rotate: rotate 5s linear infinite;
+  @keyframes rotate: {
+    0% { transform: rotate(0deg)},
+    100% {transform: rotate(-360deg)}
+  } */
   /* -----------------Background---------------- */
+  /* --background-image-cronic-gradient: conic-gradient(rgb(17, 255, 189)  20deg, transparent 120deg); */
 }
 
+
+
+
+
+/* ------------------Custom Classes-------------------- */
 .btn {
   @apply flex items-center justify-center rounded-md font-medium text-sm px-3 py-2 bg-primary text-[#343535] hover:text-white transition-all duration-300
 }
