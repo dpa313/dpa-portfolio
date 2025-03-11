@@ -22,7 +22,16 @@
 
 /* ------------------Custom Classes-------------------- */
 .btn {
-  @apply flex items-center justify-center rounded-md font-medium text-sm px-3 py-2 bg-primary text-[#343535] hover:text-white transition-all duration-300
+  @apply flex items-center justify-center rounded-md font-medium text-sm px-3 py-2 bg-primary text-[#343535] hover:text-white transition-all duration-300 hover:scale-105
+}
+.btn-outline{
+   @apply rounded-md font-medium text-sm px-3 py-2 border border-primary  text-primary hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105
+}
+.text-outline {
+  -webkit-text-stroke: 1px #fff;
+}
+.text-outline-hover {
+  -webkit-text-stroke: 1px greenyellow;
 }
 
 .active-menu {
@@ -30,7 +39,7 @@
 }
 
 .after-line {
-  @apply text-[40px] font-semibold pb-2 after:absolute after:h-[5px] after:bottom-0 after:left-1/2 after:right-1/2 after:transform after:-translate-x-1/2  after:bg-primary 
+  @apply text-3xl md:text-4xl font-semibold pb-2 after:absolute after:h-[5px] after:bottom-0 after:left-1/2 after:right-1/2 after:transform after:-translate-x-1/2  after:bg-primary 
 }
 .text-effect{
   background: linear-gradient(109.6deg, rgb(170, 255, 169) 11.2%, rgb(17, 255, 189) 91.1%);

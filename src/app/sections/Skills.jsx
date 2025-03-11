@@ -58,7 +58,7 @@ const Skills = () => {
   return (
     <section className="py-24" id="skills">
       <div className="container mx-auto">
-        <h2 className="relative tracking-wider text-center text-4xl font-semibold after-line after:w-36 uppercase text-effect">
+        <h2 className="relative tracking-wider text-center  after-line after:w-24 md:after:w-36 uppercase text-effect">
           Skills
         </h2>
         <div className="grid grid-cols-2 gap-x-3 md:gap-x-10 mt-10 md:mt-16 lg:mt-20">
@@ -73,14 +73,14 @@ const Skills = () => {
               <div className="relative">
                 <div className="flex justify-between items-center md:mt-0 pr-2">
                   <div className=" flex items-center group-hover/project:pl-2 md:group-hover/project:pl-4 lg:group-hover/project:pl-8  transition-all duration-500 ">
-                    <div className="size-[40px] md:size-[50px] group-hover/project:scale-120 md:group-hover/project:scale-130  lg:group-hover/project:scale-150 transition-all duration-500 z-10 ">
+                    <div className="size-[40px] md:size-[50px] group-hover/project:scale-120 md:group-hover/project:scale-130  lg:group-hover/project:scale-150 transition-all duration-500 z-10  ">
                       <Image
                         src={image}
                         alt={`${skill} Image`}
                         className="size-full object-contain"
                       />
                     </div>
-                    <h3 className="text-lg md:text-2xl text-primary group-hover/project:text-[#0a212b] group-hover/project:pl-5">
+                    <h3 className="text-lg md:text-2xl text-primary group-hover/project:text-[#0a212b] group-hover/project:pl-5 pl-2 md:pl-5">
                       {skill}
                     </h3>
                   </div>

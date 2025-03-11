@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="py-24" id="contact">
       <div className="container  md:w-[90%] lg:w-[80%] mx-auto overflow-hidden">
         <div className="pb-24 text-center">
-          <h2 className="relative tracking-wider text-center text-primary after-line after:w-[185px] uppercase text-effect">
+          <h2 className="relative tracking-wider text-center text-primary after-line after:w-32 md:after:w-[185px] uppercase text-effect">
             Contact
           </h2>
         </div>
